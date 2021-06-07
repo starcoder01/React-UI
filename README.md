@@ -1,6 +1,8 @@
 1.How did you decide on the technical and architectural choices used as part of your solution?
 Ans: As React is on the most popular Front end Library of Javascript . It provides Reauability of components. Easy to read and code architecture. So I decided to choose React as my Front end library for this Assignment.
 
+
+
 2.Are there any improvements you could make to your submission?
 Ans: Yes there is nothing perfect. There is always some need of improvement . I can make a API call to other movie databases eg.IMDB for fetching the details of the movies and web shows rather than locally downloaded the JSON. I can even make Authorization Module for the user to login and logout.
 
