@@ -1,0 +1,45 @@
+.footer{
+    background-color: rgba(19, 18, 18, 0.8);
+    color: #f0eeee;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+.list{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    margin: 27px;    
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.tag{
+    padding: 15px;
+    color: rgb(211, 209, 209);
+}
+.para{
+    padding-left: 45px;
+    margin: 20px;
+    color: rgb(172, 168, 168);
+}
+.links-1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding-left: 45px;
+    justify-content: space-between;
+}
+.icon a{
+    padding: 9px;
+    margin: 9px;
+    text-decoration: none;
+}
+.icon a i{
+    height: 20px;
+    padding: 10px;
+}
+.image{
+    height: 58px;
+    margin-bottom: 9px;
+    padding-bottom: 5px;
+}

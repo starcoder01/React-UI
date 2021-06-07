@@ -1,0 +1,26 @@
+.content{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    padding:35px;
+}
+@media screen and (max-width: 1129px) { 
+    .content{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        padding:30px;
+    }
+}
+@media screen and (max-width: 790px) { 
+    .content{
+        display: grid;
+        grid-template-columns: 46% 46%;
+        padding:30px;
+    }
+}
+@media screen and (max-width: 650px) { 
+    .content{
+        display: grid;
+        grid-template-columns: 100%;
+        padding:30px;
+    }
+}

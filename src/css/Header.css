@@ -1,0 +1,11 @@
+.header{
+    background-color: rgb(184, 180, 180);
+    margin-top:0px;
+}
+
+.header-ul{
+    list-style: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
