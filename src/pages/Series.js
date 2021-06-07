@@ -18,9 +18,8 @@ function Series() {
       .then(function(response){
         return response.json();
       })
-      .then(function(myJson) {
-        // console.log(myJson);
-        const data = myJson;
+      .then(function(json) {
+        const data = json;
         setSeries(data);
       });
   }
@@ -28,7 +27,7 @@ function Series() {
     getMovies()
   },[])
   const entries1 = series.entries;
-  const filtered = Object.values(entries1).filter(function(entries) { return entries.releaseYear >= '2010' && entries.programType.includes("series")});
+  const filtered = Object.values(entries1).filter(function(entries) { return entries.releaseYear >= 2010 && entries.programType.includes("series")});
   return (
     <React.Fragment>
       <Navbar />

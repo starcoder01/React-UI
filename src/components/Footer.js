@@ -8,33 +8,23 @@ function Footer() {
         <a href="/" className="tag">
           Home
         </a>
-        <a href="/" className="tag">
-          |
-        </a>
+
         <a href="/" className="tag">
           Terms and Conditions
         </a>
-        <a href="/" className="tag">
-          |
-        </a>
+
         <a href="/" className="tag">
           Privacy Policy
         </a>
-        <a href="/" className="tag">
-          |
-        </a>
+
         <a href="/" className="tag">
           Collection Statement
         </a>
-        <a href="/" className="tag">
-          |
-        </a>
+
         <a href="/" className="tag">
           Help
         </a>
-        <a href="/" className="tag">
-          |
-        </a>
+
         <a href="/" className="tag">
           Manage Account
         </a>

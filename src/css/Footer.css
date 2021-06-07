@@ -5,13 +5,16 @@
     padding-bottom: 0;
 }
 .list{
-    text-decoration: none;
+    
     display: flex;
     flex-direction: row;
     padding: 18px;
     margin: 27px;    
     margin-bottom: 0;
     padding-bottom: 0;
+}
+.list a{
+    text-decoration: none;
 }
 .tag{
     padding: 15px;
@@ -42,4 +45,31 @@
     height: 58px;
     margin-bottom: 9px;
     padding-bottom: 5px;
+}
+
+@media screen and (max-width:710px) {
+    .list{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        padding: 18px;
+        margin: 27px;    
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    .list a{
+        text-decoration: none; 
+    }
+    .footer{
+        background-color: rgba(19, 18, 18, 0.8);
+        color: #f0eeee;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }

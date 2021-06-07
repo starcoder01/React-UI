@@ -10,12 +10,12 @@ function Home() {
   const content = [
     {
       type: "Movies",
-      image: "525661.png",
+      image: `${process.env.PUBLIC_URL}/assets/473096.png`,
       url: "/movies",
     },
     {
       type: "Series",
-      image: "473096.png",
+      image: `${process.env.PUBLIC_URL}/assets/525661.png`,
       url: "/series",
     },
   ];

@@ -28,7 +28,7 @@ function Movies() {
     getMovies()
   },[])
   const entries1 = movies.entries;
-  const filtered = Object.values(entries1).filter(function(entries) { return entries.releaseYear >= '2010' && entries.programType.includes("movie")});
+  const filtered = Object.values(entries1).filter(function(entries) { return entries.releaseYear >= 2010 && entries.programType.includes("movie")});
   // const entries = movies.entries;
   return (
     <React.Fragment>
