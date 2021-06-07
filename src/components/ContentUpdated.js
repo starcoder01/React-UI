@@ -9,7 +9,7 @@ function ContentUpdated(props) {
           {props.content.length>0?props.content.map((element) => (
             <TypeCard
               key={element.title}
-              type={element.releaseYear}
+              type={element.title}
               image={element.images.poster.url}
             />
           )):<p>Loading......</p>}
