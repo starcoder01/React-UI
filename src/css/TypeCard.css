@@ -1,9 +1,9 @@
 .type-card {
-  height: 35vh;
+  height: 40vh;
   margin:15px;
-  padding:5px;
+  padding:15px;
   border-radius: 3px;
-  box-shadow: grey 2px 2px 2px 2px;
+  box-shadow: rgb(65, 64, 64) 3px 3px 3px 3px;
 }
 .type-card-image {
   height: 30vh;
@@ -19,6 +19,6 @@
 .type-card-title {
   text-align: center;
   font-weight: bold;
-  font-size:15px;
-  padding: 6px;
+  font-size:20px;
+  padding: 15px;
 }

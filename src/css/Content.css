@@ -1,7 +1,7 @@
 .content{
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    padding:35px;
+    padding:55px;
 }
 @media screen and (max-width: 1129px) { 
     .content{
