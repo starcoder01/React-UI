@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import TypeCard from "../components/TypeCard";
 import "../css/Content.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -18,6 +18,16 @@ function Home() {
       image: `${process.env.PUBLIC_URL}/assets/525661.png`,
       url: "/series",
     },
+    {
+      type: "Hollywood Mix",
+      image: `${process.env.PUBLIC_URL}/assets/Hollywood.jpg`,
+      url: "/hollywood",
+    },
+    {
+      type: "Bollywood Mix",
+      image: `${process.env.PUBLIC_URL}/assets/Bollywood.jpg`,
+      url: "/bollywood",
+    },
   ];
   return (
     <React.Fragment>
@@ -26,7 +36,10 @@ function Home() {
       <div className="content">
         {content.length > 0 ? (
           content.map((element) => (
-            <Link style={{textDecoration:"none",color:"black"}} to={element.url}>
+            <Link
+              style={{ textDecoration: "none", color: "black" }}
+              to={element.url}
+            >
               <TypeCard
                 key={element.type}
                 type={element.type}
@@ -38,7 +51,7 @@ function Home() {
           <p>Loading.....</p>
         )}
       </div>
-      <Footer/>
+      <Footer />
     </React.Fragment>
   );
 }
