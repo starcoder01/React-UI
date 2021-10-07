@@ -8,6 +8,7 @@ li {
 }
 .heading:hover {
   background: none;
+  border-bottom: 1px solid white;
 }
 button {
   font-size: 30px;
