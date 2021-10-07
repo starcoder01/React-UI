@@ -8,6 +8,7 @@ li {
 }
 .heading:hover {
   background: none;
+  border-bottom: 1px solid white;
 }
 button {
   font-size: 30px;
@@ -35,7 +36,6 @@ button {
 }
 ul li:hover {
   background-color: rgb(97, 12, 12);
-  border-radius: 100%;
   cursor: pointer;
 }
 

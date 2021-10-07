@@ -1,11 +1,26 @@
-.header{
-    background-color: rgb(97, 12, 12);
-    margin-top:0px;
+.header {
+  background-color: rgb(97, 12, 12);
+  margin-top: 0px;
 }
 
-.header-ul{
-    list-style: none;
-    color:white;
-    font-weight: bold;
-    font-size: 20px;
+.header-ul {
+  list-style: none;
+  color: white;
+  animation: Slide 2s linear;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@keyframes Slide {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
 }

@@ -33,7 +33,7 @@ function Movies() {
   return (
     <React.Fragment>
       <Navbar />
-      <Header title="Popular Movies" />
+      <Header title="Popular Movies"/>
       <ContentUpdated content = {filtered}/>
       <Footer/>
     </React.Fragment>
